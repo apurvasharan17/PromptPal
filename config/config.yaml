@@ -2,7 +2,7 @@
 
 # General application settings
 app:
-  name: "AMI-GPT"  # Name of the application
+  name: "Prompt-pal"  # Name of the application
   version: "1.0.0"    # Version of the application
 
 # API configuration

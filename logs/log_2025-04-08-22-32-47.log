@@ -1,0 +1,64 @@
+[2025-04-08 22:32:47,270] logger - INFO - Flask Application starting..
+[2025-04-08 22:32:47,673] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-04-08 22:32:47,673] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-04-08 22:32:47,674] werkzeug - INFO -  * Restarting with stat
+[2025-04-08 22:32:47,777] logger - INFO - Flask Application starting..
+[2025-04-08 22:32:47,956] werkzeug - WARNING -  * Debugger is active!
+[2025-04-08 22:32:47,964] werkzeug - INFO -  * Debugger PIN: 957-617-383
+[2025-04-08 22:32:51,618] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:32:51] "GET / HTTP/1.1" 200 -
+[2025-04-08 22:32:51,645] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:32:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-04-08 22:32:51,645] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:32:51] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-04-08 22:32:51,822] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:32:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-08 22:32:59,113] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:32:59,849] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:32:59,856] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:32:59,857] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:32:59] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:33:05,778] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:33:06,400] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:33:06,402] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:33:06,403] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:33:06] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:33:27,153] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:33:27,905] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:33:27,907] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:33:27,908] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:33:27] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:35:10,230] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:35:10,920] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:35:10,923] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:35:10,924] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:10] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:35:19,688] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:35:20,339] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:35:20,341] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:35:20,342] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:20] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:35:31,495] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:35:32,074] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:35:32,076] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:35:32,077] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:32] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:35:46,281] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:35:46,860] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:35:46,864] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:35:46,864] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:46] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:36:04,319] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:36:04,986] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:36:04,988] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:36:04,989] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:04] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:36:21,894] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:36:22,601] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:36:22,603] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:36:22,604] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:22] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:36:37,286] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:36:37,958] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:36:37,961] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:36:37,962] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:37] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:36:59,241] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:36:59,871] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:36:59,873] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:36:59,874] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:59] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:37:19,508] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:37:20,147] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:37:20,150] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:37:20,151] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:37:20] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-08 22:38:01,765] logger - INFO - Sending message to the Groq API
+[2025-04-08 22:38:02,439] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-08 22:38:02,441] logger - INFO - Recieved the response from the Groq API
+[2025-04-08 22:38:02,442] werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 22:38:02] "POST /api/chat HTTP/1.1" 200 -

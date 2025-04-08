@@ -1,0 +1,21 @@
+[2025-03-25 14:10:12,127] logger - INFO - Flask Application starting..
+[2025-03-25 14:10:12,534] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-25 14:10:12,534] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-03-25 14:10:12,534] werkzeug - INFO -  * Restarting with stat
+[2025-03-25 14:10:12,663] logger - INFO - Flask Application starting..
+[2025-03-25 14:10:12,839] werkzeug - WARNING -  * Debugger is active!
+[2025-03-25 14:10:12,846] werkzeug - INFO -  * Debugger PIN: 957-617-383
+[2025-03-25 14:10:14,735] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 14:10:14] "GET / HTTP/1.1" 200 -
+[2025-03-25 14:10:14,752] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 14:10:14] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-03-25 14:10:14,752] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 14:10:14] "GET /static/images/PromptPal.png HTTP/1.1" 200 -
+[2025-03-25 14:10:14,841] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 14:10:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-25 14:10:18,579] logger - INFO - Sending message to the Groq API
+[2025-03-25 14:10:18,631] groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.402299 seconds
+[2025-03-25 14:10:19,042] groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.986014 seconds
+[2025-03-25 14:10:20,037] logger - ERROR - Error communicating with the Groq API: Connection error.
+[2025-03-25 14:10:20,040] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 14:10:20] "POST /api/chat HTTP/1.1" 200 -
+[2025-03-25 15:33:21,620] logger - INFO - Sending message to the Groq API
+[2025-03-25 15:33:22,411] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-03-25 15:33:22,426] logger - INFO - Recieved the response from the Groq API
+[2025-03-25 15:33:22,427] werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:33:22] "POST /api/chat HTTP/1.1" 200 -
